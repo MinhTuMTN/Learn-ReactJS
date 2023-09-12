@@ -1,20 +1,27 @@
+@import "./variable";
+
 .chart {
   display: flex;
   height: 400px;
   justify-content: space-around;
   align-items: flex-end;
   margin: 10px 0px;
-}
 
-.chart-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: var(--chart-item-height);
-  width: 100px;
-  color: white;
-  background-color: rgb(231, 150, 76);
-  animation: chart-animation 1s ease-in-out;
+  .chart-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--chart-item-height);
+    width: 100px;
+    color: white;
+    background-color: $chart-item-color;
+    animation: chart-animation 1s ease-in-out;
+
+    &:hover {
+      opacity: 95%;
+      scale: 1.05;
+    }
+  }
 }
 
 // animation from 0% to the height of the chart-item itself
