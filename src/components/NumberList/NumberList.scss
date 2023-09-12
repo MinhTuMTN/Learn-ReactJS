@@ -1,0 +1,19 @@
+.number-list {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.number {
+  display: block;
+  background-color: rgb(197, 70, 108);
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

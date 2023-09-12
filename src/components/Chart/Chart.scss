@@ -1,0 +1,28 @@
+.chart {
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 10px 0px;
+}
+
+.chart-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--chart-item-height);
+  width: 100px;
+  color: white;
+  background-color: rgb(231, 150, 76);
+  animation: chart-animation 1s ease-in-out;
+}
+
+// animation from 0% to the height of the chart-item itself
+@keyframes chart-animation {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: var(--chart-item-height);
+  }
+}
