@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MinhTuMTN.github.io/learn-reactjs/static/css/main.253fa6fb.css",
+    "main.js": "/MinhTuMTN.github.io/learn-reactjs/static/js/main.143611c7.js",
+    "static/js/787.17b89665.chunk.js": "/MinhTuMTN.github.io/learn-reactjs/static/js/787.17b89665.chunk.js",
+    "index.html": "/MinhTuMTN.github.io/learn-reactjs/index.html",
+    "main.253fa6fb.css.map": "/MinhTuMTN.github.io/learn-reactjs/static/css/main.253fa6fb.css.map",
+    "main.143611c7.js.map": "/MinhTuMTN.github.io/learn-reactjs/static/js/main.143611c7.js.map",
+    "787.17b89665.chunk.js.map": "/MinhTuMTN.github.io/learn-reactjs/static/js/787.17b89665.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.253fa6fb.css",
+    "static/js/main.143611c7.js"
+  ]
+}
